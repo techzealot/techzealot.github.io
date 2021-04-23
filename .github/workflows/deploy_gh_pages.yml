@@ -1,13 +1,13 @@
 name: Build and Deploy
 on:
-  push:
-    branches: [ master ]
-jobs:
+  push
+    branches: [ main ]
+jobs
   build-and-deploy:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout 🛎️
-        uses: actions/checkout@master
+      - name: Checkout 🛎
+        uses: actions/checkout@main
       - name: Install and Build 🔧
         run: |
           npm install
