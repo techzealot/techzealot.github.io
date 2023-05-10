@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>graphviz on 个人博客</title><link>https://techzealot.github.io/tags/graphviz/</link><description>Recent content in graphviz on 个人博客</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><lastBuildDate>Wed, 10 May 2023 14:17:44 +0800</lastBuildDate><atom:link href="https://techzealot.github.io/tags/graphviz/index.xml" rel="self" type="application/rss+xml"/><item><title>Hugo增加远程服务器绘图模式支持</title><link>https://techzealot.github.io/posts/misc/hugo%E5%A2%9E%E5%8A%A0%E8%BF%9C%E7%A8%8B%E6%9C%8D%E5%8A%A1%E5%99%A8%E7%BB%98%E5%9B%BE%E6%A8%A1%E5%BC%8F%E6%94%AF%E6%8C%81/</link><pubDate>Wed, 10 May 2023 14:17:44 +0800</pubDate><guid>https://techzealot.github.io/posts/misc/hugo%E5%A2%9E%E5%8A%A0%E8%BF%9C%E7%A8%8B%E6%9C%8D%E5%8A%A1%E5%99%A8%E7%BB%98%E5%9B%BE%E6%A8%A1%E5%BC%8F%E6%94%AF%E6%8C%81/</guid><description>Hugo增加远程服务器绘图模式支持 实现思路1(推荐)：
+获取代码块内容，处理为服务器支持的格式组装到新创建的image的src属性，然后隐藏代码块
+实现思路2：
+使用自定义shortcodes功能
+缺点：该功能需要再markdown中编写特定于hugo的语法，不利于兼容及查看
+增加plantuml支持 &amp;lt;!-- plantuml --&amp;gt; {{ if or .</description></item></channel></rss>
