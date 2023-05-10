@@ -2,5 +2,5 @@
 获取代码块内容，处理为服务器支持的格式组装到新创建的image的src属性，然后隐藏代码块
 实现思路2：
 使用自定义shortcodes功能
-缺点：该功能需要再markdown中编写特定于hugo的语法，不利于兼容及查看
+缺点：该功能需要在markdown中编写特定于hugo的语法，不利于兼容及查看
 增加plantuml支持 &amp;lt;!-- plantuml --&amp;gt; {{ if or .</description></item></channel></rss>
