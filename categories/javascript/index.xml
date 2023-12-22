@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>javascript on 个人博客</title><link>https://techzealot.github.io/categories/javascript/</link><description>Recent content in javascript on 个人博客</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><lastBuildDate>Fri, 14 Jul 2023 11:42:53 +0800</lastBuildDate><atom:link href="https://techzealot.github.io/categories/javascript/index.xml" rel="self" type="application/rss+xml"/><item><title>原型与继承</title><link>https://techzealot.github.io/posts/javascript/%E5%8E%9F%E5%9E%8B%E4%B8%8E%E7%BB%A7%E6%89%BF/</link><pubDate>Fri, 14 Jul 2023 11:42:53 +0800</pubDate><guid>https://techzealot.github.io/posts/javascript/%E5%8E%9F%E5%9E%8B%E4%B8%8E%E7%BB%A7%E6%89%BF/</guid><description>继承的本质：
+Child extends Parent 要求 Child.prototype.__proto__ =Parent.prototype 从而实现</description></item><item><title>原型与原型链</title><link>https://techzealot.github.io/posts/javascript/%E5%8E%9F%E5%9E%8B%E4%B8%8E%E5%8E%9F%E5%9E%8B%E9%93%BE/</link><pubDate>Fri, 14 Jul 2023 11:42:37 +0800</pubDate><guid>https://techzealot.github.io/posts/javascript/%E5%8E%9F%E5%9E%8B%E4%B8%8E%E5%8E%9F%E5%9E%8B%E9%93%BE/</guid><description>原型与原型链
+new执行的操作：
+1.创建一个空对象,作为将要返回的对象实例
+2.将这个空的对象原型对象，指向了构造函数的prototype属性对象
+3.将这个实例对象的值赋值给函数内部的this关键字
+4.执行构造函数内的代码。
+5.如果该函数没有返回对象，则返回this
+通过new和组合寄生继承实现的继承特点：
+proto链包含prototype链
+继承实现:</description></item></channel></rss>
